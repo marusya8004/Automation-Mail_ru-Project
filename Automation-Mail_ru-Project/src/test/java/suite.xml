@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="TestPage">
+        <classes>
+            <class name="pages.LoginPageTest"/>
+            <class name="pages.SpamPageTest"/>
+            <class name="pages.SendMessagePageTest"/>
+            <class name="pages.FlagPageTest"/>
+        </classes>
+    </test>
+    <test name="TestCucumber">
+        <classes>
+            <class name="steps.LoginTest"/>
+            <class name="steps.SpamTest"/>
+            <class name="steps.SendMessageTest"/>
+        </classes>
+    </test>
+    <test name="TestApi">
+        <classes>
+            <class name="vktest.VKTest"/>
+        </classes>
+    </test>
+</suite>
